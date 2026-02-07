@@ -1,0 +1,290 @@
+[
+  {
+    "image": "https://i.ibb.co.com/6J1hs7gh/Galaxy-S23-Lavender-4600.webp",
+    "name": "Samsung Galaxy S23",
+    "description": "Flagship Android smartphone with powerful performance.",
+    "quantity": 120,
+    "price": 98000,
+    "category": "Smartphone",
+    "role": "user",
+    "seller": {
+      "image": "https://i.ibb.co.com/ZpWzgFMf/Screenshot-2026-01-26-132510.png",
+      "name": "Mobile House BD",
+      "email": "mobilehouse@gmail.com",
+      "rating": "4.6"
+    }
+  },
+  {
+    "image": "https://i.ibb.co.com/1fTJdfBK/i-Phone-14-Pro-Deep-Purple-7300.webp",
+    "name": "iPhone 14 Pro",
+    "description": "Premium Apple smartphone with A16 Bionic chip.",
+    "quantity": 80,
+    "price": 145000,
+    "category": "Smartphone",
+    "role": "user",
+    "seller": {
+      "image": "https://i.ibb.co.com/gZxS4MVP/473106856-1102597258230026-3826788719490299006-n.jpg",
+      "name": "Apple Store BD",
+      "email": "applebd@gmail.com",
+      "rating": "4.8"
+    }
+  },
+  {
+    "image": "https://i.ibb.co.com/cSW6D3wX/Redmi-Note-12-5-G-blue-5895.webp",
+    "name": "Xiaomi Redmi Note 12",
+    "description": "Budget friendly smartphone with AMOLED display.",
+    "quantity": 300,
+    "price": 24500,
+    "category": "Smartphone",
+    "role": "user",
+    "seller": {
+      "image": "https://i.ibb.co.com/YF9DrPVP/Gemini-Generated-Image-cvre2acvre2acvre.png",
+      "name": "Gadget Zone",
+      "email": "gadgetzone@gmail.com",
+      "rating": "4.3"
+    }
+  },
+  {
+    "image": "https://i.ibb.co.com/0PTzKPS/Realme-Narzo-60x-5-G-Stellar-Green-8037.webp",
+    "name": "Realme Narzo 60",
+    "description": "Stylish smartphone with strong battery life.",
+    "quantity": 210,
+    "price": 26500,
+    "category": "Smartphone",
+    "role": "user",
+    "seller": {
+      "image": "https://i.ibb.co.com/8gwVrPVf/491400485-715212474796147-7013482378969227941-n.jpg",
+      "name": "Smart Tech",
+      "email": "smarttech@gmail.com",
+      "rating": "4.1"
+    }
+  },
+  {
+    "image": "https://i.ibb.co.com/wr7XNxGb/One-Plus-Nord-Buds-3-Chromatic-Blue-7266.webp",
+    "name": "OnePlus Nord CE 3",
+    "description": "Smooth performance with fast charging support.",
+    "quantity": 140,
+    "price": 42000,
+    "category": "Smartphone",
+    "role": "user",
+    "seller": {
+      "image": "https://i.ibb.co.com/BVhD0MQg/IMG20230501165519.jpg",
+      "name": "Tech Bazaar",
+      "email": "techbazaar@gmail.com",
+      "rating": "4.5"
+    }
+  },
+
+  {
+    "image": "https://i.ibb.co.com/SDS6FxqL/2023-57144.webp",
+    "name": "Samsung 25W Fast Charger",
+    "description": "Original fast charger for Samsung devices.",
+    "quantity": 500,
+    "price": 2200,
+    "category": "Charger",
+    "role": "user",
+    "seller": {
+      "image": "https://i.ibb.co.com/QvPCPf18/trashed-1723968238-IMG20240202162247.jpg",
+      "name": "Accessory Hub",
+      "email": "accessoryhub@gmail.com",
+      "rating": "4.4"
+    }
+  },
+  {
+    "image": "https://i.ibb.co.com/Kx1cNpKk/3131-80978.webp",
+    "name": "USB Type-C Data Cable",
+    "description": "Fast charging and data transfer cable.",
+    "quantity": 700,
+    "price": 450,
+    "category": "Cable",
+    "role": "user",
+    "seller": {
+      "image": "https://i.ibb.co.com/Z1LXQWh0/08852dd4d87737fa305de7d9a573a236.webp",
+      "name": "Cable World",
+      "email": "cableworld@gmail.com",
+      "rating": "4.2"
+    }
+  },
+  {
+    "image": "https://i.ibb.co.com/C5ByRL9c/Xundd-XDPB-021-Magnetic-Wireless-Power-Bank-10000m-Ah-Black-2027.webp",
+    "name": "Wireless Power Bank 10000mAh",
+    "description": "Portable power bank with wireless charging.",
+    "quantity": 230,
+    "price": 3200,
+    "category": "Power Bank",
+    "role": "user",
+    "seller": {
+      "image": "https://i.ibb.co.com/whTG1RZQ/IMG20231217145132.jpg",
+      "name": "Power Store",
+      "email": "powerstore@gmail.com",
+      "rating": "4.5"
+    }
+  },
+  {
+    "image": "https://i.ibb.co.com/jZWz89S8/5017-36861.webp",
+    "name": "Bluetooth Earbuds",
+    "description": "True wireless earbuds with noise reduction.",
+    "quantity": 260,
+    "price": 3800,
+    "category": "Audio",
+    "role": "user",
+    "seller": {
+      "image": "https://i.ibb.co.com/7J9ScN0S/trashed-1723968241-Introduction-Dr-Zakir-Naik-jd-Sl-Z2-Orv-SX3-PM.jpg",
+      "name": "Sound Mart",
+      "email": "soundmart@gmail.com",
+      "rating": "4.3"
+    }
+  },
+  {
+    "image": "https://i.ibb.co.com/Fq87DN4k/PXN-V900-Gaming-Steering-Wheel-with-Linear-Pedals-7638.webp",
+    "name": "Gaming Mobile Trigger",
+    "description": "Enhance mobile gaming performance.",
+    "quantity": 180,
+    "price": 1200,
+    "category": "Gaming Accessory",
+    "role": "user",
+    "seller": {
+      "image": "https://i.ibb.co.com/VYTtM641/trashed-1723968233-IMG20240103125449.jpg",
+      "name": "Gamer Zone",
+      "email": "gamerzone@gmail.com",
+      "rating": "4.1"
+    }
+  },
+
+  {
+    "image": "https://i.ibb.co.com/996bTYv5/ESR-Tempered-Glass-Protector-with-Installation-box-for-i-Phone-16-Pro-Max-8854.webp",
+    "name": "Tempered Glass Screen Protector",
+    "description": "9H hardness full screen protection.",
+    "quantity": 900,
+    "price": 300,
+    "category": "Screen Protector",
+    "role": "user",
+    "seller": {
+      "image": "https://i.ibb.co.com/wNSmRHqb/Gemini-Generated-Image-q0ej51q0ej51q0ej.png",
+      "name": "Glass Shop",
+      "email": "glassshop@gmail.com",
+      "rating": "4.0"
+    }
+  },
+  {
+    "image": "https://i.ibb.co.com/jv72dNkx/4277-16728.webp",
+    "name": "Shockproof Mobile Cover",
+    "description": "Strong protection with stylish design.",
+    "quantity": 650,
+    "price": 550,
+    "category": "Mobile Cover",
+    "role": "user",
+    "seller": {
+      "image": "https://i.ibb.co.com/zjzqV4x/img.jpg",
+      "name": "Cover House",
+      "email": "coverhouse@gmail.com",
+      "rating": "4.4"
+    }
+  },
+  {
+    "image": "https://i.ibb.co.com/k6xR2w4v/UGREEN-LP178-Car-Parking-Card-7944.webp",
+    "name": "Car Mobile Holder",
+    "description": "Dashboard mounted mobile holder.",
+    "quantity": 320,
+    "price": 850,
+    "category": "Car Accessory",
+    "role": "user",
+    "seller": {
+      "image": "https://i.ibb.co.com/fshGqZK/Gemini-Generated-Image-3tfyid3tfyid3tfy.png",
+      "name": "Auto Tech",
+      "email": "autotech@gmail.com",
+      "rating": "4.2"
+    }
+  },
+  {
+    "image": "https://i.ibb.co.com/39JrnwFR/Remax-Watch-16-Ultra-2-Letor-Series-Smart-Watch-4574.webp",
+    "name": "Smart Watch Series 8",
+    "description": "Fitness tracking smart watch.",
+    "quantity": 150,
+    "price": 7200,
+    "category": "Smart Watch",
+    "role": "user",
+    "seller": {
+      "image": "https://i.ibb.co.com/0VsvWCns/Screenashot-2025-05-23-212345.jpg",
+      "name": "Watch Gallery",
+      "email": "watchgallery@gmail.com",
+      "rating": "4.6"
+    }
+  },
+  {
+    "image": "https://i.ibb.co.com/tw7s5X9w/X-Level-HD-Anti-Scratch-Camera-Lens-Protector-for-Galaxy-S25-Ultra-black-5542.webp",
+    "name": "Mobile Camera Lens Kit",
+    "description": "Wide angle and macro lens set.",
+    "quantity": 200,
+    "price": 1600,
+    "category": "Camera Accessory",
+    "role": "user",
+    "seller": {
+      "image": "https://i.ibb.co.com/ymf3pkN4/665b2adc-4f43-4e47-8744-2fe9199270f8.jpg",
+      "name": "Photo Gear",
+      "email": "photogear@gmail.com",
+      "rating": "4.3"
+    }
+  },
+
+  {
+    "image": "https://i.ibb.co.com/nqT62srG/4803-50907.webp",
+    "name": "OTG USB Adapter",
+    "description": "Connect USB devices to your phone.",
+    "quantity": 500,
+    "price": 350,
+    "category": "Adapter",
+    "role": "user",
+    "seller": {
+      "image": "https://i.ibb.co.com/MkZsz9GX/Whats-App-Image-2025-01-03-at-19-48-23-00999922.jpg",
+      "name": "Tech Access",
+      "email": "techaccess@gmail.com",
+      "rating": "4.1"
+    }
+  },
+  {
+    "image": "https://i.ibb.co.com/HTKp5Wnf/MEMO-CX12-Mobile-Cooler-Radiator-with-Digital-Display-and-Battery-3400.webp",
+    "name": "Mobile Cooling Fan",
+    "description": "Reduce phone temperature during gaming.",
+    "quantity": 130,
+    "price": 2100,
+    "category": "Gaming Accessory",
+    "role": "user",
+    "seller": {
+      "image": "https://i.ibb.co.com/fGC4RGjL/Whats-App-Image-2024-09-0-at-12-17-48-2a4c90d1.png",
+      "name": "Cool Tech",
+      "email": "cooltech@gmail.com",
+      "rating": "4.4"
+    }
+  },
+  {
+    "image": "https://i.ibb.co.com/6J1QH59c/4187-21206.webp",
+    "name": "Foldable Mobile Stand",
+    "description": "Adjustable stand for video watching.",
+    "quantity": 400,
+    "price": 600,
+    "category": "Mobile Stand",
+    "role": "user",
+    "seller": {
+      "image": "https://i.ibb.co.com/TSWtD4h/Whats-App-Image-2024-12-06-at-15-17-32-75f0b04d.jpg",
+      "name": "Stand Store",
+      "email": "standstore@gmail.com",
+      "rating": "4.2"
+    }
+  },
+  {
+    "image": "https://i.ibb.co.com/N2CxfPZM/2606-55034.webp",
+    "name": "Wireless Charging Pad",
+    "description": "Fast wireless charging support.",
+    "quantity": 170,
+    "price": 2800,
+    "category": "Charger",
+    "role": "user",
+    "seller": {
+      "image": "https://i.ibb.co.com/xtdnr1XL/464589438-122174451956127932-3361519522640069026-n.jpg",
+      "name": "Charge Point",
+      "email": "chargepoint@gmail.com",
+      "rating": "4.5"
+    }
+  }
+]
