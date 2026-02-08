@@ -2,7 +2,7 @@ import { useState } from 'react'
 import DeleteModal from '../../Modal/DeleteModal'
 import UpdatePlantModal from '../../Modal/UpdatePlantModal'
 
-const PlantDataRow = ({ plant }) => {
+const PlantDataRow = ({ mobile }) => {
   let [isOpen, setIsOpen] = useState(false)
   const [isEditModalOpen, setIsEditModalOpen] = useState(false)
 
@@ -12,7 +12,7 @@ const PlantDataRow = ({ plant }) => {
   function closeModal() {
     setIsOpen(false)
   }
-  const { image, name, category, quantity, price } = plant
+  const { image, name, category, quantity, price } = mobile
   return (
     <tr>
       <td className='px-5 py-5 border-b border-gray-200 bg-white text-sm'>

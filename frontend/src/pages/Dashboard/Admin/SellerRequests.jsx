@@ -19,6 +19,7 @@ const SellerRequests = () => {
       return result.data
     },
   })
+  
 
   if (isLoading) return <LoadingSpinner />
 

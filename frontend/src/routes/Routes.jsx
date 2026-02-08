@@ -63,7 +63,7 @@ export const router = createBrowserRouter([
         ),
       },
       {
-        path: 'add-plant',
+        path: 'add-mobile',
         element: (
           <PrivateRoute>
             <SellerRoute>

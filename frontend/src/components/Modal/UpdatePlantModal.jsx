@@ -3,7 +3,7 @@ import { Fragment } from 'react'
 import { HiOutlineXMark } from 'react-icons/hi2'
 import UpdatePlantForm from '../Form/UpdatePlantForm'
 
-const UpdatePlantModal = ({ setIsEditModalOpen, isOpen, plantData }) => {
+const UpdatePlantModal = ({ setIsEditModalOpen, isOpen, mobileData }) => {
   return (
     <Transition show={isOpen} as={Fragment}>
       <Dialog 
@@ -47,7 +47,7 @@ const UpdatePlantModal = ({ setIsEditModalOpen, isOpen, plantData }) => {
                       Update <span className='text-blue-600'>Product</span> Details
                     </DialogTitle>
                     <p className='text-sm text-slate-400 mt-1 font-medium'>
-                      Modify information for: <span className='text-slate-600 font-bold'>"{plantData?.name || 'Mobile'}"</span>
+                      Modify information for: <span className='text-slate-600 font-bold'>"{mobileData?.name || 'Mobile'}"</span>
                     </p>
                   </div>
                   
@@ -61,7 +61,7 @@ const UpdatePlantModal = ({ setIsEditModalOpen, isOpen, plantData }) => {
 
                 {/* Form Wrapper */}
                 <div className='mt-2 w-full bg-slate-50/50 p-6 rounded-3xl border border-slate-100/50 shadow-inner'>
-                  <UpdatePlantForm setIsEditModalOpen={setIsEditModalOpen} plantData={plantData} />
+                  <UpdatePlantForm setIsEditModalOpen={setIsEditModalOpen} mobileData={mobileData} />
                 </div>
 
                 {/* Footer Note */}

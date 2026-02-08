@@ -21,10 +21,20 @@ const SellerOrderDataRow = ({ order, refetch }) => {
       toast.error(err.response?.data?.message || "Failed to update status")
     }
   }
+ const handleDelete = async () => {
+  try {
+    await axiosSecure.delete(`/orders/${_id}`);
+    toast.success('Order deleted successfully');
+    refetch();
+    closeModal();
+  } catch (err) {
+    toast.error(err.response?.data?.message || 'Failed to delete order');
+  }
+}
 
   // Status Badge Colors
   const statusStyles = {
-    Pending: 'bg-orange-100 text-orange-600',
+    pending: 'bg-orange-100 text-orange-600',
     'In Progress': 'bg-blue-100 text-blue-600',
     Delivered: 'bg-emerald-100 text-emerald-600',
     Cancelled: 'bg-red-100 text-red-600',
@@ -40,8 +50,8 @@ const SellerOrderDataRow = ({ order, refetch }) => {
       {/* Customer Info */}
       <td className='px-6 py-5 text-sm border-b border-slate-50'>
         <div className='flex flex-col'>
-          <p className='text-slate-800 font-semibold'>{customer?.name || 'Unknown'}</p>
-          <p className='text-[11px] text-slate-400 font-medium'>{customer?.email}</p>
+          <p className='text-slate-800 font-semibold'>{customer.name || 'Unknown'}</p>
+          <p className='text-[11px] text-slate-400 font-medium'>{customer.email || customer}</p>
         </div>
       </td>
 
@@ -74,7 +84,7 @@ const SellerOrderDataRow = ({ order, refetch }) => {
             disabled={status === 'Delivered'}
             className='cursor-pointer text-xs font-bold bg-white border-2 border-slate-100 px-3 py-2 rounded-xl focus:border-emerald-500 outline-none transition-all disabled:opacity-50 disabled:cursor-not-allowed'
           >
-            <option value='Pending'>Pending</option>
+            <option value='pending'>pending</option>
             <option value='In Progress'>Processing</option>
             <option value='Delivered'>Deliver</option>
           </select>

@@ -15,7 +15,7 @@ const ManageOrders = () => {
     enabled: !!user?.email, // User email na thakle query cholbe na
     queryFn: async () => {
       // .get() add kora bhalo clarity-r jonno
-      const { data } = await axiosSecure.get(`/manage-orders/${user?.email}`)
+      const { data } = await axiosSecure.get('/manage-orders')
       return data
     },
   })

@@ -8,7 +8,7 @@ const MyInventory = () => {
   const { user } = useAuth()
   const axiosSecure = useAxiosSecure()
 
-  const { data: plants = [], isLoading, refetch } = useQuery({
+  const { data: mobiles = [], isLoading, refetch } = useQuery({
     queryKey: ['inventory', user?.email],
     enabled: !!user?.email, // User email thaklei query cholbe
     queryFn: async () => {
@@ -36,11 +36,11 @@ const MyInventory = () => {
                 </tr>
               </thead>
               <tbody>
-                {plants.length > 0 ? (
-                  plants.map(plant => (
+                {mobiles.length > 0 ? (
+                  mobiles.map(mobile => (
                     <PlantDataRow 
-                      key={plant._id} 
-                      plant={plant} 
+                      key={mobile._id} 
+                      mobile={mobile} 
                       refetch={refetch} // Delete ba Update er por refetch korar jonno
                     />
                   ))

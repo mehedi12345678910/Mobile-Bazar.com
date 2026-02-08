@@ -14,7 +14,7 @@ const UpdatePlantForm = () => {
                 name='name'
                 id='name'
                 type='text'
-                placeholder='Plant Name'
+                placeholder='Mobile Name'
                 required
               />
             </div>
@@ -42,7 +42,7 @@ const UpdatePlantForm = () => {
 
               <textarea
                 id='description'
-                placeholder='Write plant description here...'
+                placeholder='Write Mobile description here...'
                 className='block rounded-md focus:lime-300 w-full h-32 px-4 py-3 text-gray-800  border border-lime-300 bg-white focus:outline-lime-500 '
                 name='description'
               ></textarea>
@@ -107,7 +107,7 @@ const UpdatePlantForm = () => {
               type='submit'
               className='w-full cursor-pointer p-3 mt-5 text-center font-medium text-white transition duration-200 rounded shadow-md bg-lime-500 '
             >
-              Update Plant
+              Update mobile
             </button>
           </div>
         </div>

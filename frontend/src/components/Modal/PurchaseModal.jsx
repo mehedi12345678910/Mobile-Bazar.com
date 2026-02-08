@@ -11,7 +11,7 @@ const PurchaseModal = ({ closeModal, isOpen, mobile }) => {
   const handlePayment = async () => {
     try {
       const paymentInfo = {
-        plantId: _id,
+        mobileId: _id,
         name,
         category,
         price,

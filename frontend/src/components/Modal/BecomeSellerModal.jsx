@@ -11,12 +11,11 @@ const BecomeSellerModal = ({ closeModal, isOpen }) => {
 
 
 
-// ✅ Ekhon eivabe likhun (Backend code-er sathe mill rekhe):
 const handleRequest = async () => {
   setLoading(true)
   try {
-    // '/users' bad diye sudhu '/become-seller' likhun
-    const { data } = await axiosSecure.patch('/become-seller') 
+    
+    const { data } = await axiosSecure.post('/become-seller') 
     
     if (data.insertedId) {
       toast.success('Request sent! Please wait for admin approval.')
