@@ -198,40 +198,14 @@ async function run() {
       );
     });
 
-    // get all orders for a customer by email
+    // delete inventory
 
-    // app.get('/my-orders', verifyJWT, async (req, res) => {
-    //   const result = await ordersCollection
-    //     .find({ customer: req.tokenEmail })
-    //     .toArray()
-    //   res.send(result)
-    // })
-
-    // get all orders for a seller by email
-    //     app.get(
-    //       '/manage-orders/:email',
-    //       verifyJWT,
-    //       verifySELLER,
-    //       async (req, res) => {
-    //         const email = req.params.email
-
-    //         const result = await ordersCollection
-    //           .find({ seller: email })
-    //           .toArray()
-    //         res.send(result)
-    //       }
-    //     )
-    //     app.patch('/order/status/:id', verifyJWT, verifySELLER, async (req, res) => {
-    //   const { id } = req.params
-    //   const { status } = req.body
-
-    //   const result = await ordersCollection.updateOne(
-    //     { _id: new ObjectId(id) },
-    //     { $set: { status } }
-    //   )
-
-    //   res.send(result)
-    // })
+    app.delete("/my-inventory/:id", async (req, res) => {
+      const id = req.params.id;
+      const qury = { _id: new ObjectId(id) };
+      const result = await ordersCollection.deleteOne(qury);
+      res.send(result);
+    });
 
     // ✅ Get all orders for logged-in customer
     app.get("/my-orders", verifyJWT, async (req, res) => {
