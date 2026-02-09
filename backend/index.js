@@ -98,14 +98,7 @@ async function run() {
       res.send(result);
     });
 
-    // akhane 2 ta delete chilo ami akta comment kore rakhchi
-
-    // app.delete('/mobiles/:id', verifyJWT, verifySELLER, async (req, res) => {
-    //   const id = req.params.id;
-    //   const query = { _id: new ObjectId(id) };
-    //   const result = await mobileCollection.deleteOne(query);
-    //   res.send(result);
-    // });
+   
 
     app.delete("/orders/:id", verifyJWT, async (req, res) => {
       const id = req.params.id;
@@ -365,10 +358,10 @@ async function run() {
       res.send(result);
     });
     // Send a ping to confirm a successful connection
-    await client.db("admin").command({ ping: 1 });
-    console.log(
-      "Pinged your deployment. You successfully connected to MongoDB!",
-    );
+    // await client.db("admin").command({ ping: 1 });
+    // console.log(
+    //   "Pinged your deployment. You successfully connected to MongoDB!",
+    // );
   } finally {
     // Ensures that the client will close when you finish/error
   }
